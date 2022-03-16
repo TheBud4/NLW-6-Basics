@@ -8,6 +8,11 @@
     <title>AULA1</title>
     <!--ICONS-->
     <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <!--STYLES-->
     <link rel="stylesheet" href="style.css" />
     <!--FONTS-->
@@ -140,28 +145,70 @@
         </div>
       </section>
       <!-- /SERVICES -->
+      <!-- TESTMONIALS -->
       <div class="divider-1"></div>
       <section class="section" id="testmonials">
         <div class="container grid">
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
-          <div class="testimonials">
-            <div class="testmonial">
-              <p><span>&ldquo;</span></p>
+          <div class="testmonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testmonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    tenetur quae. Modi, veniam repellat at aperiam odit esse
+                    reiciendis voluptatibus quo?
+                  </p>
+                  <cite>
+                    <img src="./assets/Fotos/13.jpg" alt="foto de Wanessa" />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testmonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    tenetur quae. Modi, veniam repellat at aperiam odit esse
+                    reiciendis voluptatibus quo?
+                  </p>
+                  <cite>
+                    <img src="./assets/Fotos/78.jpg" alt=" foto de franciele" />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testmonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    tenetur quae. Modi, veniam repellat at aperiam odit esse
+                    reiciendis voluptatibus quo?
+                  </p>
+                  <cite>
+                    <img src="./assets/Fotos/41.jpg" alt="Fotos de Valeska" />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
             </div>
-            <div class="testmonial"></div>
-            <div class="testmonial"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
-      <!-- TESTMONIALS -->
-
       <!-- /TESTMONIALS -->
 
       <!-- CONTACT -->
       <!-- /CONTACT -->
     </main>
+    <!--SWIPER-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- MAIN -->
     <script src="main.js"></script>
   </body>
 </html>
